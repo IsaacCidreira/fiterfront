@@ -8,7 +8,7 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.backgroundSecundary};
   border-radius: 10px;
   padding: 32px;
-  box-shadow: 0px 4px 0px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
 
   /* TABLET */
   @media (max-width: 860px) {
@@ -47,6 +47,15 @@ export const Title = styled.h1`
   }
 `;
 
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  button {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 32px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+`;
 export const Forms = styled.div``;
-
-export const Form = styled.form``;

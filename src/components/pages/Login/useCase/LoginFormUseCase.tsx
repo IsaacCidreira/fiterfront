@@ -1,4 +1,5 @@
 import React, { FormEvent, useState } from 'react';
+import Button from '../../../Button/Button';
 import FormGroup from '../../../FormGroup/FormGroup';
 import useErrors from '../../../hooks/useErrors';
 import Input from '../../../Input/Input';
@@ -58,6 +59,9 @@ const LoginFormUseCase = () => {
           onChange={handlePassword}
         />
       </FormGroup>
+      <Button>
+        Entrar
+      </Button>
     </Form>
   );
 };
