@@ -5,7 +5,7 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inika", sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 body{
